@@ -27,8 +27,8 @@ def englishNumber number
 
  if write > 0
    # Now here's a really sly trick:
-   thousands  = englishNumber write
-   numString = numString + thousands + ' million'
+   million  = englishNumber write
+   numString = numString + million + ' million'
    # That's called "recursion". So what did I just do?
    # I told this method to call itself, but with "write" instead of
    # "number". Remember that "write" is (at the moment) the number of
